@@ -19,6 +19,7 @@ group :test do
   gem 'codeclimate-test-reporter', '~> 1.0', require: false
   gem 'safe_yaml', require: false
   gem 'webmock', require: false
+  gem 'mutant'
 end
 
 local_gemfile = 'Gemfile.local'
